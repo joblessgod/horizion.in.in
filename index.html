@@ -4,13 +4,15 @@
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="icon" type="image/png" href="./img/favicon.png">
+      <link rel="icon" type="image/png" href="./img/favicon.png" alt="favicon>
+      <link rel="preload" fetchpriority="high" as="image" href="./img/hz.png" type="image/png">
+      <link rel="preload" fetchpriority="high" as="image" href="./img/hero.png" type="image/png">
       <title>Horizion Network | Epic Minecraft Adventures</title>
 
       <!-- Basic Meta Tags -->
       <meta name="description"
             content="Join Horizion Network for an unforgettable Minecraft adventure! Explore custom maps, unique gameplay, and a welcoming community of gamers.">
-      <meta name="author" content="Horizion Network Team">
+      <meta name="Mafia164" content="Horizion Network Team">
 
       <!-- Open Graph Meta Tags -->
       <meta property="og:title" content="Horizion Network | Epic Minecraft Adventures">
@@ -51,7 +53,7 @@
 <body class="body bg-gray-900">
 
       <!-- navbar -->
-       
+
       <header class="flex justify-between bg-gray-800 items-center fixed w-full z-50">
             <div class="flex items-center">
                   <img src="./img/favicon.png" alt="logo" class="logo max-h-16 max-w-16 px-2">
@@ -62,31 +64,31 @@
                   <ul class="flex text-white">
                         <li class="mx-2 md:mx-3 lg:mx-6 hover:cursor-pointer">
                               <a href="#" class="flex">
-                                    <img src="/img/home.svg" class="h-5 pr-1 mt-0.5">
+                                    <img src="/img/home.svg" alt="home-icon" class="h-5 pr-1 mt-0.5">
                                     Home
                               </a>
                         </li>
                         <li class="mx-2 md:mx-3 lg:mx-6 hover:cursor-pointer">
                               <a href="#gamemode" class="flex">
-                                    <img src="/img/game.svg" class="h-5 pr-1 mt-0.5">
+                                    <img src="/img/game.svg" alt="gamemode-icon" class="h-5 pr-1 mt-0.5">
                                     Gamemode
                               </a>
                         </li>
                         <li class="mx-2 md:mx-3 lg:mx-6 hover:cursor-pointer">
                               <a href="#store" class="flex">
-                                    <img src="/img/shop.svg" class="h-5 pr-1 mt-0.5">
+                                    <img src="/img/shop.svg" alt="store-icon" class="h-5 pr-1 mt-0.5">
                                     Store
                               </a>
                         </li>
                         <li class="mx-2 md:mx-3 lg:mx-6 hover:cursor-pointer">
-                              <a href="https://horizion.in/discord" class="flex">
-                                    <img src="/img/discord.svg" class="h-5 pr-1 mt-0.5">
+                              <a href="https://horizion.in/discord" target="_blank" class="flex">
+                                    <img src="/img/discord.svg" alt="discord-icon" class="h-5 pr-1 mt-0.5">
                                     Discord
                               </a>
                         </li>
                         <li class="mx-2 md:mx-3 lg:mx-6 hover:cursor-pointer">
                               <a href="#vote" class="flex">
-                                    <img src="/img/vote.svg" class="h-5 pr-1 mt-0.5">
+                                    <img src="/img/vote.svg" alt="vote-icon" class="h-5 pr-1 mt-0.5">
                                     Vote
                               </a>
                         </li>
@@ -96,45 +98,45 @@
 
             <!-- menu and close icon -->
 
-            <img src="./img/menu.png" alt="menu" class="menu-icon h-8 w-8 sm:hidden mx-5">
+            <img src="./img/menu.svg" alt="menu" class="menu-icon h-8 w-8 sm:hidden mx-5">
             
       </header>
       
-      <hero class = "relative">
+      <main class = "relative">
 
             <!-- sidebar --> 
 
             <div class="sidebar fixed sm:hidden pt-12 pb-2 w-[75%] xxs:w-[60%] xs:w-[50%] h-[100%] flex flex-col bg-gray-800 top-0 right-0 z-50 border border-gray-700 transition-transform duration-300 transform translate-x-full text-white">
                   <div class="border-b-2 border-gray-700">
 
-                        <img src="./img/close.png" alt="close" class=" absolute close-icon h-8 w-8 sm:hidden mx-5 top-2 right-0">
+                        <img src="./img/close.svg" alt="close" class=" absolute close-icon h-8 w-8 sm:hidden mx-5 top-2 right-0">
                   </div>        
                   <ul class="sidebar-list">
                         <li class="px-2 py-1 mx-3 my-3"><a href="#" class="flex">
-                                    <img src="/img/home.svg" class="h-5 pr-1 mt-0.5">
+                                    <img src="/img/home.svg" alt="home-icon" class="h-5 pr-1 mt-0.5">
                                     Home
                               </a>
                         </li>
                         <li class="px-2 py-1 mx-3 my-3"><a href="#gamemode" class="flex">
-                                    <img src="/img/game.svg" class="h-5 pr-1 mt-0.5">
+                                    <img src="/img/game.svg" alt="gamemode-icon" class="h-5 pr-1 mt-0.5">
                                     Gamemode
                               </a>
                         </li>
                         <li class="px-2 py-1 mx-3 my-3">
                               <a href="#store" class="flex">
-                                    <img src="/img/shop.svg" class="h-5 pr-1 mt-0.5">
+                                    <img src="/img/shop.svg" alt="store-icon" class="h-5 pr-1 mt-0.5">
                                     Store
                               </a>
                         </li>
                         <li class="px-2 py-1 mx-3 my-3">
-                              <a href="https://horizion.in/discord" class="flex">
-                                    <img src="/img/discord.svg" class="h-5 pr-1 mt-0.5">
+                              <a href="https://horizion.in/discord" target="_blank" class="flex">
+                                    <img src="/img/discord.svg" alt="discord-icon" class="h-5 pr-1 mt-0.5">
                                     Discord
                               </a>
                         </li>
                         <li class="px-2 py-1 mx-3 my-3">
                               <a href="#vote" class="flex">
-                                    <img src="/img/vote.svg" class="h-5 pr-1 mt-0.5">
+                                    <img src="/img/vote.svg" alt="vote-icon" class="h-5 pr-1 mt-0.5">
                                     Vote
                               </a>
                         </li>
@@ -145,7 +147,7 @@
             <!-- hero -->
 
             <div class="bg-[url(/img/hero.png)] w-full h-screen bg-cover bg-center flex flex-col items-center text-center align-middle justify-center text-white mask-b-from-80%">
-                  <img src="img/hz.png" class="h-20 sm:h-28 max-sm:h-14 hover:scale-110  tranistion ease-in-out duration-300"></img>
+                  <img src="img/hz.png" alt="hz" class="h-20 sm:h-28 max-sm:h-14 hover:scale-110  tranistion ease-in-out duration-300"></img>
                   
                   <div class="flex my-8 items-center">
                         <button class="ip bg-white/30 flex items-center rounded-sm border border-green-500 py-2 px-6 text-center align-middle text-xl font-bold text-black transition-all hover:opacity-75 focus:ring focus:ring-green-200 active:opacity-[0.85]" type="button">Join Now</button>
@@ -160,12 +162,12 @@
                               <span class="relative ml-2 bg-red-600 rounded-full h-3 w-3"></span>
                               <span class="absolute ml-2 animate-ping bg-red-600 rounded-full h-3 w-3"></span>
                         </div>
-                        <div class="player-count mx-2 text-white font-bold flex">0 Online Players</div>
+                        <div class="player-count mx-2 text-white font-bold flex">Fetching Online Players</div>
                   
                   
                   </div>
             </div>
-      </hero>
+      </main>
 
       <!-- Gamemodes  -->
 
@@ -173,7 +175,7 @@
 
       <!-- Gamemodes Cards -->
 
-      <div class="gamemodes flex flex-wrap justify-center gap-4">
+      <section class="gamemodes flex flex-wrap justify-center gap-4">
             
             <!-- Survival -->
 
@@ -218,11 +220,11 @@
                   </div>
             </div>
 
-      </div>
+      </section>
 
       <!-- Store  -->
 
-      <div class="pt-16" id="store">
+      <section class="pt-16" id="store">
             <div class="max-w-6xl max-lg:max-w-3xl mx-auto">
                   <div class="text-center">
                         <h2 class="text-white text-3xl font-bold mb-4">Server Store</h2>
@@ -292,7 +294,7 @@
                               
                               <div class="mt-auto pt-4">
                                     <button type="button" class="w-full px-4 py-2.5 text-[15px] font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-md cursor-pointer">
-                                          <a href="https://horizion.in/discord">Buy VIP Rank</a></button>
+                                          <a href="https://horizion.in/discord" target="_blank">Buy VIP Rank</a></button>
                               </div>
                         </div>
 
@@ -367,7 +369,7 @@
                               
                               <div class="mt-auto pt-4">
                                     <button type="button" class="w-full px-4 py-2.5 text-[15px] font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-md cursor-pointer">
-                                          <a href="https://horizion.in/discord">Buy MVP Rank</a></button>
+                                          <a href="https://horizion.in/discord" target="_blank">Buy MVP Rank</a></button>
                               </div>
                         </div>
 
@@ -454,7 +456,7 @@
                               
                               <div class="mt-auto pt-4">
                                     <button type="button" class="w-full px-4 py-2.5 text-[15px] font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-md cursor-pointer">
-                                          <a href="https://horizion.in/discord">Buy Elite Rank</a></button>
+                                          <a href="https://horizion.in/discord" target="_blank">Buy Elite Rank</a></button>
                               </div>
                         </div>
 
@@ -553,153 +555,155 @@
                               
                               <div class="mt-auto pt-4">
                                     <button type="button" class="w-full px-4 py-2.5 text-[15px] font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-md cursor-pointer">
-                                          <a href="https://horizion.in/discord">Buy Immortal Rank</a></button>
+                                          <a href="https://horizion.in/discord" target="_blank">Buy Immortal Rank</a></button>
                               </div>
                         </div>
                   </div>
             </div>
+
+      </sec>
 
             <!-- Vote Links -->
 
-            <div class="pb-16 pt-16" id="vote">
-                  <div class="max-w-6xl max-lg:max-w-3xl mx-auto">
-                        <div class="text-center">
-                              <h2 class="text-white text-3xl font-bold mb-4">Vote for Us</h2>
-                              <p class="text-[15px] text-gray-400 mb-8">Support our server by voting on these platforms and earn rewards!</p>
+      <section class="pb-16 pt-16" id="vote">
+            <div class="max-w-6xl max-lg:max-w-3xl mx-auto">
+                  <div class="text-center">
+                        <h2 class="text-white text-3xl font-bold mb-4">Vote for Us</h2>
+                        <p class="text-[15px] text-gray-400 mb-8">Support our server by voting on these platforms and earn rewards!</p>
+                  </div>
+
+                  <!-- Vote Cards -->
+
+                  <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-6 mt-12 max-sm:max-w-sm max-sm:mx-auto">
+
+                        <!-- Minecraft-MP -->
+
+                        <div class="border border-gray-700 shadow-sm rounded-md p-6 bg-gray-800 flex flex-col h-full hover:scale-105 transition ease-in-out duration-300">
+                              <div class="flex items-center mb-4">
+                                    <img src="./img/vote.svg" alt="vote" class="h-8 w-8 mr-3">
+                                    <h3 class="text-white text-xl font-semibold">Minecraft-MP</h3>
+                              </div>
+                              
+                              <div class="flex-grow">
+                                    <h4 class="text-white text-lg font-semibold mb-3">Vote Rewards</h4>
+                                    <ul class="space-y-2">
+                                          <li class="flex items-center text-[15px] text-gray-400 font-medium">
+                                                <img src="./img/check.svg" alt="check" width="16" class="mr-3">
+                                                1x Vote Key
+                                          </li>
+                                          <li class="flex items-center text-[15px] text-gray-400 font-medium">
+                                                <img src="./img/check.svg" alt="check" width="16" class="mr-3">
+                                                $100 In-Game Money
+                                          </li>
+                                          <li class="flex items-center text-[15px] text-gray-400 font-medium">
+                                                <img src="./img/check.svg" alt="check" width="16" class="mr-3">
+                                                100 Claim Blocks
+                                          </li>
+                                          <li class="flex items-center text-[15px] text-gray-400 font-medium">
+                                                <img src="./img/check.svg" alt="check" width="16" class="mr-3">
+                                                5x Coins
+                                          </li>
+                                    </ul>
+                              </div>
+                              
+                              <div class="mt-auto pt-4">
+                                    <a href="https://minecraft-mp.com/server/338178/vote/" target="_blank" class="w-full inline-block px-4 py-2.5 text-[15px] font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-md cursor-pointer text-center transition">
+                                          🔗 Click Here to Vote
+                                    </a>
+                              </div>
                         </div>
 
-                        <!-- Vote Cards -->
+                        <!-- TopMinecraftServers.org -->
 
-                        <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-6 mt-12 max-sm:max-w-sm max-sm:mx-auto">
-
-                              <!-- Minecraft-MP -->
-
-                              <div class="border border-gray-700 shadow-sm rounded-md p-6 bg-gray-800 flex flex-col h-full hover:scale-105 transition ease-in-out duration-300">
-                                    <div class="flex items-center mb-4">
-                                          <img src="./img/vote.svg" alt="vote" class="h-8 w-8 mr-3">
-                                          <h3 class="text-white text-xl font-semibold">Minecraft-MP</h3>
-                                    </div>
-                                    
-                                    <div class="flex-grow">
-                                          <h4 class="text-white text-lg font-semibold mb-3">Vote Rewards</h4>
-                                          <ul class="space-y-2">
-                                                <li class="flex items-center text-[15px] text-gray-400 font-medium">
-                                                      <img src="./img/check.svg" alt="check" width="16" class="mr-3">
-                                                      1x Vote Key
-                                                </li>
-                                                <li class="flex items-center text-[15px] text-gray-400 font-medium">
-                                                      <img src="./img/check.svg" alt="check" width="16" class="mr-3">
-                                                      $100 In-Game Money
-                                                </li>
-                                                <li class="flex items-center text-[15px] text-gray-400 font-medium">
-                                                      <img src="./img/check.svg" alt="check" width="16" class="mr-3">
-                                                      100 Claim Blocks
-                                                </li>
-                                                <li class="flex items-center text-[15px] text-gray-400 font-medium">
-                                                      <img src="./img/check.svg" alt="check" width="16" class="mr-3">
-                                                      5x Coins
-                                                </li>
-                                          </ul>
-                                    </div>
-                                    
-                                    <div class="mt-auto pt-4">
-                                          <a href="https://minecraft-mp.com/server/338178/vote/" target="_blank" class="w-full inline-block px-4 py-2.5 text-[15px] font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-md cursor-pointer text-center transition">
-                                                🔗 Click Here to Vote
-                                          </a>
-                                    </div>
+                        <div class="border border-gray-700 shadow-sm rounded-md p-6 bg-gray-800 flex flex-col h-full hover:scale-105 transition ease-in-out duration-300">
+                              <div class="flex items-center mb-4">
+                                    <img src="./img/vote.svg" alt="vote" class="h-8 w-8 mr-3">
+                                    <h3 class="text-white text-xl font-semibold">TopMinecraftServers.org</h3>
                               </div>
-
-                              <!-- TopMinecraftServers.org -->
-
-                              <div class="border border-gray-700 shadow-sm rounded-md p-6 bg-gray-800 flex flex-col h-full hover:scale-105 transition ease-in-out duration-300">
-                                    <div class="flex items-center mb-4">
-                                          <img src="./img/vote.svg" alt="vote" class="h-8 w-8 mr-3">
-                                          <h3 class="text-white text-xl font-semibold">TopMinecraftServers.org</h3>
-                                    </div>
-                                    
-                                    <div class="flex-grow">
-                                          <h4 class="text-white text-lg font-semibold mb-3">Vote Rewards</h4>
-                                          <ul class="space-y-2">
-                                                <li class="flex items-center text-[15px] text-gray-400 font-medium">
-                                                      <img src="./img/check.svg" alt="check" width="16" class="mr-3">
-                                                      1x Vote Key
-                                                </li>
-                                                <li class="flex items-center text-[15px] text-gray-400 font-medium">
-                                                      <img src="./img/check.svg" alt="check" width="16" class="mr-3">
-                                                      $100 In-Game Money
-                                                </li>
-                                                <li class="flex items-center text-[15px] text-gray-400 font-medium">
-                                                      <img src="./img/check.svg" alt="check" width="16" class="mr-3">
-                                                      100 Claim Blocks
-                                                </li>
-                                                <li class="flex items-center text-[15px] text-gray-400 font-medium">
-                                                      <img src="./img/check.svg" alt="check" width="16" class="mr-3">
-                                                      5x Coins
-                                                </li>
-                                          </ul>
-                                    </div>
-                                    
-                                    <div class="mt-auto pt-4">
-                                          <a href="https://topminecraftservers.org/vote/37211" target="_blank" class="w-full inline-block px-4 py-2.5 text-[15px] font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-md cursor-pointer text-center transition">
-                                                🔗 Click Here to Vote
-                                          </a>
-                                    </div>
+                              
+                              <div class="flex-grow">
+                                    <h4 class="text-white text-lg font-semibold mb-3">Vote Rewards</h4>
+                                    <ul class="space-y-2">
+                                          <li class="flex items-center text-[15px] text-gray-400 font-medium">
+                                                <img src="./img/check.svg" alt="check" width="16" class="mr-3">
+                                                1x Vote Key
+                                          </li>
+                                          <li class="flex items-center text-[15px] text-gray-400 font-medium">
+                                                <img src="./img/check.svg" alt="check" width="16" class="mr-3">
+                                                $100 In-Game Money
+                                          </li>
+                                          <li class="flex items-center text-[15px] text-gray-400 font-medium">
+                                                <img src="./img/check.svg" alt="check" width="16" class="mr-3">
+                                                100 Claim Blocks
+                                          </li>
+                                          <li class="flex items-center text-[15px] text-gray-400 font-medium">
+                                                <img src="./img/check.svg" alt="check" width="16" class="mr-3">
+                                                5x Coins
+                                          </li>
+                                    </ul>
                               </div>
-
-                              <!-- Minecraft.Buzz -->
-
-                              <div class="border border-gray-700 shadow-sm rounded-md p-6 bg-gray-800 flex flex-col h-full hover:scale-105 transition ease-in-out duration-300">
-                                    <div class="flex items-center mb-4">
-                                          <img src="./img/vote.svg" alt="vote" class="h-8 w-8 mr-3">
-                                          <h3 class="text-white text-xl font-semibold">Minecraft.Buzz</h3>
-                                    </div>
-                                    
-                                    <div class="flex-grow">
-                                          <h4 class="text-white text-lg font-semibold mb-3">Vote Rewards</h4>
-                                          <ul class="space-y-2">
-                                                <li class="flex items-center text-[15px] text-gray-400 font-medium">
-                                                      <img src="./img/check.svg" alt="check" width="16" class="mr-3">
-                                                      1x Vote Key
-                                                </li>
-                                                <li class="flex items-center text-[15px] text-gray-400 font-medium">
-                                                      <img src="./img/check.svg" alt="check" width="16" class="mr-3">
-                                                      $100 In-Game Money
-                                                </li>
-                                                <li class="flex items-center text-[15px] text-gray-400 font-medium">
-                                                      <img src="./img/check.svg" alt="check" width="16" class="mr-3">
-                                                      100 Claim Blocks
-                                                </li>
-                                                <li class="flex items-center text-[15px] text-gray-400 font-medium">
-                                                      <img src="./img/check.svg" alt="check" width="16" class="mr-3">
-                                                      5x Coins
-                                                </li>
-                                          </ul>
-                                    </div>
-                                    
-                                    <div class="mt-auto pt-4">
-                                          <a href="https://minecraft.buzz/vote/10921" target="_blank" class="w-full inline-block px-4 py-2.5 text-[15px] font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-md cursor-pointer text-center transition">
-                                                🔗 Click Here to Vote
-                                          </a>
-                                    </div>
+                              
+                              <div class="mt-auto pt-4">
+                                    <a href="https://topminecraftservers.org/vote/37211" target="_blank" class="w-full inline-block px-4 py-2.5 text-[15px] font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-md cursor-pointer text-center transition">
+                                          🔗 Click Here to Vote
+                                    </a>
                               </div>
-
                         </div>
+
+                        <!-- Minecraft.Buzz -->
+
+                        <div class="border border-gray-700 shadow-sm rounded-md p-6 bg-gray-800 flex flex-col h-full hover:scale-105 transition ease-in-out duration-300">
+                              <div class="flex items-center mb-4">
+                                    <img src="./img/vote.svg" alt="vote" class="h-8 w-8 mr-3">
+                                    <h3 class="text-white text-xl font-semibold">Minecraft.Buzz</h3>
+                              </div>
+                              
+                              <div class="flex-grow">
+                                    <h4 class="text-white text-lg font-semibold mb-3">Vote Rewards</h4>
+                                    <ul class="space-y-2">
+                                          <li class="flex items-center text-[15px] text-gray-400 font-medium">
+                                                <img src="./img/check.svg" alt="check" width="16" class="mr-3">
+                                                1x Vote Key
+                                          </li>
+                                          <li class="flex items-center text-[15px] text-gray-400 font-medium">
+                                                <img src="./img/check.svg" alt="check" width="16" class="mr-3">
+                                                $100 In-Game Money
+                                          </li>
+                                          <li class="flex items-center text-[15px] text-gray-400 font-medium">
+                                                <img src="./img/check.svg" alt="check" width="16" class="mr-3">
+                                                100 Claim Blocks
+                                          </li>
+                                          <li class="flex items-center text-[15px] text-gray-400 font-medium">
+                                                <img src="./img/check.svg" alt="check" width="16" class="mr-3">
+                                                5x Coins
+                                          </li>
+                                    </ul>
+                              </div>
+                              
+                              <div class="mt-auto pt-4">
+                                    <a href="https://minecraft.buzz/vote/10921" target="_blank" class="w-full inline-block px-4 py-2.5 text-[15px] font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-md cursor-pointer text-center transition">
+                                          🔗 Click Here to Vote
+                                    </a>
+                              </div>
+                        </div>
+
                   </div>
             </div>
+      </section>
 
             <!-- footer  -->
 
-            <footer class="bg-gray-800 text-white mt-10 py-6 border-t border-gray-700">
-                        <div class="max-w-6xl mx-auto px-4 flex flex-col items-center justify-center">
-                              <div class="text-center">
-                                    <div class="font-mono text-green-400 text-sm mb-1">Server IP: PLAY.HORIZION.IN</div>
-                                    <div class="text-xs text-gray-400">Made with <span class="text-red-500">❤️</span> by Mafia164</div>
-                                    <div class="text-xs text-gray-400">© 2025 Horizion Network. All rights reserved.</div>
-                                    <div class="text-xs text-gray-500 mt-2">We are not affiliated with Mojang AB or Minecraft.</div>
-                              </div>
+      <footer class="bg-gray-800 text-white mt-10 py-6 border-t border-gray-700">
+                  <div class="max-w-6xl mx-auto px-4 flex flex-col items-center justify-center">
+                        <div class="text-center">
+                              <div class="font-mono text-green-400 text-sm mb-1">Server IP: PLAY.HORIZION.IN</div>
+                              <div class="text-xs text-gray-400">Made with <span class="text-red-500">❤️</span> by Mafia164</div>
+                              <div class="text-xs text-gray-400">© 2025 Horizion Network. All rights reserved.</div>
+                              <div class="text-xs text-gray-500 mt-2">We are not affiliated with Mojang AB or Minecraft.</div>
                         </div>
-            </footer>
-      </div>
+                  </div>
+      </footer>
+      
       
       <script src="script.js"></script>
 </body>
